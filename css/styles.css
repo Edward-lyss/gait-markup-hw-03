@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+img{
+  display: block;
+}
+
 button {
   cursor: pointer;
 }
@@ -163,7 +167,7 @@ button {
 .hero {
   background-color: #2e2f42;
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -192,7 +196,7 @@ button {
   min-width: 169px;
   height: 56px;
   border: none;
-
+  border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -234,17 +238,18 @@ button {
 
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-title {
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
   display: flex;
   gap: 24px;
-  
+  border-radius: 0 0 4px 4px;
 
 }
 
@@ -261,7 +266,7 @@ button {
 
 .team-image {
   width: 264px;
-
+  
 }
 
 .team-subtitle {
@@ -270,11 +275,10 @@ button {
 }
 
 .team-position {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* --------------------TEAM-------------------- */
@@ -282,11 +286,12 @@ button {
 /* --------------------PORTFOLIO-------------------- */
 
 .portfolio {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 
 }
 
@@ -330,6 +335,8 @@ height: 120px;
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px
 }
 
 .footer-logo-accent {
@@ -339,12 +346,11 @@ height: 120px;
 .footer-text {
   color: #f4f4fd;
   margin-top: 16px;
+  max-width: 264px;
 }
 
-.fotter-info {
-  padding: 100px 0;
-  max-width: 264px;
-
+.fotter-logo {
+  display: block;
 }
 
 /* -----------------FOOTER------------------ */
