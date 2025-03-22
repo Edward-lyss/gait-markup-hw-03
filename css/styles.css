@@ -209,6 +209,8 @@ button {
 /* -----------------QUALITIES-------------------- */
 
 .qualities {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .qualities-title {
@@ -216,7 +218,6 @@ button {
 
 .qualities-list {
   display: flex;
-  padding: 120px 0;
   gap: 24px;
 }
 
@@ -249,7 +250,7 @@ button {
 .team-list {
   display: flex;
   gap: 24px;
-  border-radius: 0 0 4px 4px;
+  border-radius: 0px 0px 4px 4px;
 
 }
 
@@ -306,6 +307,15 @@ button {
 
 }
 
+.portfolio-position {
+border-bottom: 1px solid #e7e9fc;
+border-left: 1px solid #e7e9fc;
+border-right: 1px solid #e7e9fc;
+padding: 32px 16px;
+width: 360px;
+height: 120px;
+}
+
 .portfolio-image {
 
 }
@@ -317,15 +327,6 @@ button {
 
 .portfolio-text {
 
-}
-
-.portfolio-position {
-border-bottom: 1px solid #e7e9fc;
-border-left: 1px solid #e7e9fc;
-border-right: 1px solid #e7e9fc;
-padding: 32px 16px;
-width: 360px;
-height: 120px;
 }
 
 
@@ -345,12 +346,12 @@ height: 120px;
 
 .footer-text {
   color: #f4f4fd;
-  margin-top: 16px;
   max-width: 264px;
 }
 
 .fotter-logo {
-  display: block;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 /* -----------------FOOTER------------------ */
